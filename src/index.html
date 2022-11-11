@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Electron App</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script defer src="js/appFunction.js"></script>
+    </head>
+    <body>
+        <div class="mainApp">
+            <div class="topBar">
+                <div class="titleBar">
+                    <!-- <button id="showHideMenus" class="toggleButton"></button> -->
+                    <img src="icons/icon_top_bar.png" alt="logo top bar"></img>
+                    <div class="title">My App Top Bar</div>
+                </div>
+                <div class="titleBarBtns">
+                    <button id="minimizeBtn" class="topBtn minimizeBtn" title="Minimize"></button>
+                    <button id="maxResBtn" class="topBtn maximizeBtn" title="Maximize"></button>
+                    <button id="closeBtn" class="topBtn closeBtn" title="Close"></button>
+                </div>
+            </div>
+            <div class="contentArea">
+                <!-- <div id="mySidebar" class="leftMenu"></div> -->
+                <iframe class="contentPage" src="https://www.sagbot.com/edt">
+                </iframe>
+            </div>
+        </div>
+    </body>
+</html>
